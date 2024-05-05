@@ -1,5 +1,5 @@
 // question 28
-var age = 13;
+var age = 12;
 if (age <= 2) {
     console.log("The person is a baby.");
 }
@@ -19,7 +19,7 @@ else {
     console.log("The person is a elder.");
 }
 //Question 29:
-var favoriet_fruits = ["Banana", "Apple", "Mango"];
+var favoriet_fruits = ["Banana", "Oring", "Mango"];
 if (favoriet_fruits.includes("Banana")) {
     console.log("you really like banana ");
 }
@@ -27,10 +27,10 @@ if (favoriet_fruits.includes("Mango")) {
     console.log("you realy like mango");
 }
 //Question 30:
-var userName = ["kashif", "user1", "user2", "user3", "user4"];
+var userName = ["fariz", "user1", "user2", "user3", "user4"];
 userName.forEach(function (userName) {
-    if (userName === "kasif") {
-        console.log("Hello kashif, would you like to see a status report?");
+    if (userName === "fariz") {
+        console.log("Hello fariz, would you like to see a status report?");
     }
     else {
         console.log("Hello ".concat(userName, ", thank you for loggin in again"));
